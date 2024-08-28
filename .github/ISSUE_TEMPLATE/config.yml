@@ -1,8 +1,8 @@
-blank_issues_enabled: true
-contact_links:
-  - name: Feature requests and ideas
-    url: https://github.com/orgs/upptime/discussions/new?category=ideas
-    about: Suggest an idea for this project
-  - name: Questions
-    url: https://github.com/orgs/upptime/discussions/new?category=q-a
-    about: Please ask and answer questions here
+blank_issues_enabled: false  # Отключает создание пустых вопросов (Issues)
+contact_links:               # Добавляет ссылки для контактов на странице создания вопросов
+  - name: Документация
+    url: https://github.com/nurs850/mi-upptime/wiki
+    about: Прочитайте документацию, чтобы узнать больше о проекте и задать вопрос.
+  - name: Сообщить о проблеме
+    url: https://github.com/nurs850/mi-upptime/issues/new?template=bug_report.yml
+    about: Используйте этот шаблон для сообщения о проблеме.
