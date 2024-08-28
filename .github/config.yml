@@ -1,0 +1,25 @@
+name: Upptime
+on:
+  schedule:
+    - cron: '0 * * * *'  # Проверка доступности каждые 60 минут
+  workflow_dispatch:
+
+jobs:
+  upptime:
+    name: Upptime
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: Run Upptime
+        uses: upptime/upptime@main
+        with:
+          sites: |
+            - name: Google
+              url: https://www.google.com
+            - name: YouTube
+              url: https://www.youtube.com
+            - name: Facebook
+              url: https://www.facebook.com
+            # Добавьте здесь другие сайты
